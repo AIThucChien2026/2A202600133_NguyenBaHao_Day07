@@ -1,0 +1,91 @@
+{
+  "num_docs_loaded": 5,
+  "num_chunks_loaded": 100,
+  "store_size": 100,
+  "num_cases": 5,
+  "chunking_strategy": "RecursiveChunker",
+  "retrieval_hit_rate": 1.0,
+  "avg_keyword_score": 0.55,
+  "details": [
+    {
+      "query": "Nhân vật chính mở đầu truyện bằng hành động gì?",
+      "retrieval_hit": true,
+      "retrieved_sources": [
+        "data/chi pheo.txt"
+      ],
+      "source_scores": {
+        "data/chi pheo.txt": 0.6310167302470743
+      },
+      "used_metadata_filter": {
+        "source": "data/chi pheo.txt"
+      },
+      "keyword_score": 0.0,
+      "answer_preview": "Tôi không biết.  Nguồn: data/chi pheo.txt, data/trang sang.txt, data/tu cach mo.txt, data/quet nha.txt",
+      "top_1_source": "data/chi pheo.txt"
+    },
+    {
+      "query": "Trong truyện Một bữa no, bà lão sống bằng cách nào khi tuổi già sức yếu?",
+      "retrieval_hit": true,
+      "retrieved_sources": [
+        "data/1 bua no.txt"
+      ],
+      "source_scores": {
+        "data/1 bua no.txt": 0.6251565153478476
+      },
+      "used_metadata_filter": {
+        "source": "data/1 bua no.txt"
+      },
+      "keyword_score": 0.75,
+      "answer_preview": "Khi tuổi già sức yếu, bà lão sống bằng cách gạ gẫm ở cho nhiều nhà khác nhau, mỗi lần đổi chủ thì giá trị công sức lại giảm xuống. Sau khi bị ngã vỡ lọ và què tay, bà được người chủ cuối cùng cho năm hào để về hưu trí. K",
+      "top_1_source": "data/1 bua no.txt"
+    },
+    {
+      "query": "Trong truyện Quét nhà, vì sao cha mẹ của Hồng hay cáu gắt trong giai đoạn khó khăn?",
+      "retrieval_hit": true,
+      "retrieved_sources": [
+        "data/quet nha.txt"
+      ],
+      "source_scores": {
+        "data/quet nha.txt": 0.6235652367506637
+      },
+      "used_metadata_filter": {
+        "source": "data/quet nha.txt"
+      },
+      "keyword_score": 0.5,
+      "answer_preview": "Cha mẹ của Hồng hay cáu gắt vì họ đang phải chịu đựng sự túng thiếu, khó khăn về kinh tế, dẫn đến tâm trạng luôn nóng như lửa đốt và lo lắng quá mức.  Nguồn: data/quet nha.txt - Quét nhà",
+      "top_1_source": "data/quet nha.txt"
+    },
+    {
+      "query": "Trong truyện Trăng sáng, Điền thay đổi quan niệm nghệ thuật như thế nào?",
+      "retrieval_hit": true,
+      "retrieved_sources": [
+        "data/trang sang.txt"
+      ],
+      "source_scores": {
+        "data/trang sang.txt": 0.6143472795242303
+      },
+      "used_metadata_filter": {
+        "source": "data/trang sang.txt"
+      },
+      "keyword_score": 0.75,
+      "answer_preview": "Từ việc từng muốn trốn tránh thực tại tàn nhẫn để mơ mộng và viết thứ văn chương của bọn nhàn rỗi, Điền nhận ra nghệ thuật không cần là ánh trăng lừa dối. Điền thay đổi quan niệm rằng nghệ thuật có thể chỉ là tiếng đau k",
+      "top_1_source": "data/trang sang.txt"
+    },
+    {
+      "query": "Trong truyện Tư cách mõ, Lộ bị biến đổi tính cách do những tác động xã hội nào?",
+      "retrieval_hit": true,
+      "retrieved_sources": [
+        "data/tu cach mo.txt"
+      ],
+      "source_scores": {
+        "data/tu cach mo.txt": 0.5977275529686783
+      },
+      "used_metadata_filter": {
+        "source": "data/tu cach mo.txt"
+      },
+      "keyword_score": 0.75,
+      "answer_preview": "Lộ bị biến đổi tính cách do sự khinh bỉ, làm nhục của người đời đối với hắn, khiến hắn không còn biết thế nào là tự trọng.  Nguồn: Nam Cao - Tư cách mõ",
+      "top_1_source": "data/tu cach mo.txt"
+    }
+  ]
+}
