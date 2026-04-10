@@ -1,8 +1,8 @@
 # Báo Cáo Lab 7: Embedding & Vector Store
 
 **Họ tên:** Nguyễn Bá hào
-**Nhóm:** 24
-**Ngày:** 11/4/2026
+**Nhóm:** 
+**Ngày:** 10/4/2026
 
 ---
 
@@ -113,7 +113,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên 3 tài liệu (chunk_size=
 
 
 **Strategy nào tốt nhất cho domain này? Tại sao?**
-> RecursiveChunker với chunk_size lớn (1500) kết hợp metadata filter theo `source` cho kết quả tốt nhất. Lý do: (1) Truyện ngắn cần ngữ cảnh lớn để LLM hiểu — chunk nhỏ mất ý. (2) Metadata filter giải quyết vấn đề Chí Phèo (56K chars) chiếm hết top-k vì document lớn hơn 4x các truyện khác. (3) RecursiveChunker tôn trọng ranh giới đoạn văn tự nhiên trong truyện.
+> RecursiveChunker với chunk_size lớn kết hợp metadata filter theo `source` cho kết quả tốt nhất. Lý do: (1) Truyện ngắn cần ngữ cảnh lớn để LLM hiểu — chunk nhỏ mất ý. (2) Metadata filter giải quyết vấn đề Chí Phèo (56K chars) chiếm hết top-k vì document lớn hơn 4x các truyện khác. (3) RecursiveChunker tôn trọng ranh giới đoạn văn tự nhiên trong truyện.
 
 ---
 
