@@ -21,7 +21,7 @@
 **Ví dụ LOW similarity:**
 - Sentence A: "Chương trình này hay thế"
 - Sentence B: "bạn ăn gì hôm nay"
-- Tại sao khác: 2 câu này không có mối liên quan đến nhau tu context đến đối tượng
+- Tại sao khác: 2 câu này không có mối liên quan đến nhau.
 
 **Tại sao cosine similarity được ưu tiên hơn Euclidean distance cho text embeddings?**
 > *Viết 1-2 câu:*
