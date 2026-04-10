@@ -1,7 +1,7 @@
 # Báo Cáo Lab 7: Embedding & Vector Store
 
 **Họ tên:** Nguyễn Bá hào
-**Nhóm:** 
+**Nhóm:** 24
 **Ngày:** 10/4/2026
 
 ---
